@@ -403,6 +403,9 @@ h6 {font-size: 16px;}
     .main-container{
         width: 95%;
     }
+    .greeting-wrapper h1{
+        font-size: 10vw;
+    }
 }
 
 
