@@ -11,6 +11,11 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <link id ="theme-style" rel="stylesheet" type="text/css" href="">
+
+
 </head>
 
 <body>
@@ -38,10 +43,10 @@
                     <img id="profile_pic" src="images/Kerry.jpg">
                     <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <div data-mode ="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode ="blue"id="blue-mode" class="theme-dot"></div>
+                        <div data-mode ="green"id="green-mode" class="theme-dot"></div>
+                        <div data-mode ="purple"id="purple-mode" class="theme-dot"></div>
                     </div>
 
                     <p id="settings-note">*Change the theme you <br>prefer</p>
@@ -103,6 +108,9 @@
                 <div class="social-links">
                     <div class="about-me">
                         <img id ="social_img" src="images/83B93240-ACC9-423E-8DF6-43C12E4D0800_1_105_c.jpeg">
+                        <h3>Find me on LinkedIn & Github</h3>
+                        <a target="_blank" href ="#">LinkedIn</a>
+                        <a target="_blank" href="#">Github</a>
                     </div>
                 </div>
             </div>
@@ -111,15 +119,70 @@
 
     <section class="s1">
         <div class="main-container">
-            Portfolio
+            <h3 style="text-align: center;">Projects</h3>
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/83B93240-ACC9-423E-8DF6-43C12E4D0800_1_105_c.jpeg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro"> This is a sentence</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/83B93240-ACC9-423E-8DF6-43C12E4D0800_1_105_c.jpeg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro"> This is a sentence</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/83B93240-ACC9-423E-8DF6-43C12E4D0800_1_105_c.jpeg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro"> This is a sentence</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="s2">
         <div class="main-container">
-            Contact
+            <h3 style="text-align: center;">Contact</h3>
+
+            <form id="contact-form">
+                <label>Name</label>
+                <input class="input-field" type="text" name ="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="text" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" type="text" name="message"></textarea>
+
+
+
+                <input id ="submit-btn" type="submit" value="Send">
+            </form>
         </div>
     </section>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
