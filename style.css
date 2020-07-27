@@ -393,7 +393,7 @@ h6 {font-size: 16px;}
 }
 
 .ft-social-list a{
-    color: black;
+    color: var(--mainText); 
 }
 
 
