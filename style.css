@@ -32,6 +32,16 @@ h1,h2,h3,h3,h4,h5,h6, strong {
     font-weight: 500;
 }
 
+pre {
+    color: var(--mainText); 
+    font-weight: 500;
+}
+
+spam {
+    color: var(--mainText);
+    font-family: 'Caveat', cursive;
+    font-size: 23px;
+}
 p,li,span, label, input, textarea {
     color: var(--secondaryText);
     font-family: 'Roboto Mono', monospace;
@@ -422,5 +432,12 @@ h6 {font-size: 16px;}
     .right-column{
         width: 95%;
         justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    pre {
+        font-size: 1vw;
     }
 }
