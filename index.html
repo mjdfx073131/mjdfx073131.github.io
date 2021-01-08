@@ -13,8 +13,9 @@
       href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" 
-    rel="stylesheet"
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
 
@@ -28,11 +29,47 @@
   <body>
     <section class="s1">
       <div class="main-container">
+        <nav>
+          <div class="logo">KerrYuEe</div>
+          <div class="lang-menu">
+            <div class="selected-lang"></div>
+            <ul class="lang-dropdown">
+              <li>
+                <a href="#" class="language" id="ca">English</a>
+              </li>
+              <li>
+                <a href="#" class="language" id="fr">Français</a>
+              </li>
+              <li>
+                <a href="#" class="language" id="cn">简体中文</a>
+              </li>
+              <li>
+                <a href="#" class="language" id="hk">繁體中文</a>
+              </li>
+              <li>
+                <a href="#" class="language" id="jp">日本語</a>
+              </li>
+              <li>
+                <a href="#" class="language" id="kr">한국어</a>
+              </li>
+              <li>
+                <a href="#" class ="language" id="es">Español</a>
+              </li>
+              <li>
+                <a href="#" class="language" id = "ae">العربية</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
         <div class="greeting-wrapper">
-          <h1>Hongkaiyue(Kerry) Zhou</h1>
-          <spam>“You can’t control what people say about you and what they think about you. You can’t plan for bad luck. You can only
-          work your hardest and do your best and tell the truth. In the end, it’s the effort that matters. The rest is beyond your
-          control.” &nbsp ― Maria Sharapova, Unstoppable: My Life So Far</spam>
+          <h1 id = "name">Hongkaiyue(Kerry) Zhou</h1>
+          <spam id = "quote"
+            >“You can’t control what people say about you and what they think
+            about you. You can’t plan for bad luck. You can only work your
+            hardest and do your best and tell the truth. In the end, it’s the
+            effort that matters. The rest is beyond your control.” &nbsp ― Maria
+            Sharapova, Unstoppable: My Life So Far</spam
+          >
         </div>
 
         <div class="intro-wrapper">
@@ -44,7 +81,7 @@
             </div>
 
             <ul id="navigation">
-              <li><a href="mailto:z1454142986@gmail.com">Contact</a></li>
+              <li><a href="mailto:z1454142986@gmail.com" id = "contact">Contact</a></li>
             </ul>
           </div>
 
@@ -66,8 +103,8 @@
               <div id="preview">
                 <div id="corner-tl" class="corner"></div>
                 <div id="corner-tr" class="corner"></div>
-                <h3>What I Do</h3>
-                <p>I am a full stack engineer that builds modern apps</p>
+                <h3 id="what-i-do">What I Do</h3>
+                <p id="description">I am a full stack engineer that builds modern apps</p>
                 <div id="corner-br" class="corner"></div>
                 <div id="corner-bl" class="corner"></div>
               </div>
@@ -81,9 +118,9 @@
       <div class="main-container">
         <div class="about-wrapper">
           <div class="about-me">
-            <h4>About me</h4>
+            <h4 id = "about-me-title">About me</h4>
 
-            <p>
+            <p id = "self-introduction">
               A fourth-year Computer Science student at University of British
               Columbia. Self-managed, motivated, and consistently devoting
               efforts into works to achieve the best result. A fast learner with
@@ -91,15 +128,13 @@
               expectations.
             </p>
 
-            <p>
-              I love Real Madrid! I am a 100% MADRIDISTA! Hala Madrid!
-            </p>
+            <p id = "soccer">I love Real Madrid! I am a 100% MADRIDISTA! Hala Madrid!</p>
             <hr />
 
-            <h4>Technical skills</h4>
+            <h4 id = "technical-skills">Technical skills</h4>
 
             <p>
-              <a target="_blank" href="sampleResume.pdf">Download Resume</a>
+              <a target="_blank" href="sampleResume.pdf" id = "download-resume">Download Resume</a>
             </p>
 
             <div id="skills">
@@ -137,7 +172,7 @@
                 id="social_img"
                 src="images/83B93240-ACC9-423E-8DF6-43C12E4D0800_1_105_c.jpeg"
               />
-              <h3>Find me on LinkedIn & Github</h3>
+              <h3 id = "social-media">Find me on LinkedIn & Github</h3>
               <a
                 class="fa fa-linkedin"
                 style="font-size: 48px"
@@ -169,7 +204,7 @@
                   A small Domain Specific Language(DSL) compiler that compiles
                   BSS into CSS so that it allows front-end developers to write
                   CSS with nested style rules, variables, functions, control
-                  flow, mathematical operations & inheritance
+                  flow, mathematical operations & inheritance.
                 </p>
                 <a target="_blank" href="https://github.com/chuntonggao/bss"
                   >Read More</a
@@ -186,7 +221,7 @@
                 <p class="post-intro">
                   A Single Page React Application which allows users to share
                   blogs, and allows staff to filter articles by tags, monitor
-                  comments and visualize users’ statistics
+                  comments and visualize users’ statistics.
                 </p>
                 <a target="_blank" href="https://github.com/chuntonggao/bloggy"
                   >Read More</a
