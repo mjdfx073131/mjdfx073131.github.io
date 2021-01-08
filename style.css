@@ -23,7 +23,6 @@ html, body {
 }
 body *{
     transition: 0.4s;
-    box-sizing: border-box;
 }
 
 
