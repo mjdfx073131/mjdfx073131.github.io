@@ -17,7 +17,7 @@ var data = {
         "project_title": "Projects",
         "bss": "A small Domain Specific Language(DSL) compiler that compiles BSS into CSS so that it allows front-end developers to write CSS with nested style rules, variables, functions, control flow, mathematical operations & inheritance.",
         "bloggy": "A Single Page React Application which allows users to share blogs, and allows staff to filter articles by tags, monitor comments and visualize users’ statistics.",
-        "messageList": "A MERN (MongoDB + Express + React + Node.js) app which also uses Redux to monitor states and deploy to Heroku. MessageList allows user to add/edit/delete messages.",
+        "messageList": "A MERN (MongoDB + Express + React + Node.js) app which also uses Redux to monitor states and deploy to Heroku. MessageList allows user to add/edit/delete messages." + '<a href="https://quiet-mountain-30375.herokuapp.com" >Link</a>',
         "read_more": "Read More",
     },
     "cn": {
@@ -36,7 +36,7 @@ var data = {
         "project_title": "开源项目",
         "bss": "小型领域特定语言（DSL）编译器，它将BSS编译为CSS，以便前端开发人员可以使用嵌套的样式规则，变量，函数，控制流，数学运算和继承来编写CSS。",
         "bloggy": "单页React应用程序，使用户可以共享博客，并允许后台按标签过滤文章，监视评论并可视化用户的统计信息。",
-        "messageList": "一个MERN（MongoDB + Express + React + Node.js）应用程序，它也使用Redux监视状态并部署到Heroku。 MessageList允许用户添加/编辑/删除消息。",
+        "messageList": "一个MERN（MongoDB + Express + React + Node.js）应用程序，它也使用Redux监视状态并部署到Heroku。 MessageList允许用户添加/编辑/删除消息。" + '<a href="https://quiet-mountain-30375.herokuapp.com" >链接</a>',
         "read_more": "戳这里",
 
     },
@@ -56,7 +56,7 @@ var data = {
         "project_title": "開源項目",
         "bss": "小型領域特定語言（DSL）編譯器，它將BSS編譯為CSS，以便前端開發人員可以使用嵌套的樣式規則，變量，函數，控制流，數學運算和繼承來編寫CSS。",
         "bloggy": "單頁React應用程序，使用戶可以共享博客，並允許後台按標籤過濾文章，監視評論並可視化用戶的統計信息。",
-        "messageList": "一個MERN（MongoDB + Express + React + Node.js）應用程序，它也使用Redux監視狀態並部署到Heroku。 MessageList允許用戶添加/編輯/刪除消息。",
+        "messageList": "一個MERN（MongoDB + Express + React + Node.js）應用程序，它也使用Redux監視狀態並部署到Heroku。 MessageList允許用戶添加/編輯/刪除消息。" + '<a href="https://quiet-mountain-30375.herokuapp.com" >鏈接</a>',
         "read_more": "了解更多",
     },
     "jp": {
@@ -75,7 +75,7 @@ var data = {
         "project_title": "オープンソースプロジェクト",
         "bss": "BSSをCSSにコンパイルする小さなドメイン固有言語（DSL）コンパイラ。これにより、フロントエンド開発者はネストされたスタイルのルール、変数、関数、制御フロー、数学演算、継承を使用してCSSを記述できます。",
         "bloggy": "単一ページのReactアプリケーションを使用すると、ユーザーはブログを共有でき、背景で記事をタグでフィルタリングしたり、コメントを監視したり、ユーザー統計を視覚化したりできます。",
-        "messageList": "MERN（MongoDB + Express + React + Node.js）アプリケーション。これも、Reduxを使用してステータスを監視し、Herokuにデプロイします。 MessageListを使用すると、ユーザーはメッセージを追加/編集/削除できます。",
+        "messageList": "MERN（MongoDB + Express + React + Node.js）アプリケーション。これも、Reduxを使用してステータスを監視し、Herokuにデプロイします。 MessageListを使用すると、ユーザーはメッセージを追加/編集/削除できます。" + '<a href="https://quiet-mountain-30375.herokuapp.com" >リンク</a>',
         "read_more": "詳しくは"
     },
     "kr": {
@@ -94,7 +94,7 @@ var data = {
         "project_title": "오픈 소스 프로젝트",
         "bss": "프런트 엔드 개발자가 중첩 스타일 규칙, 변수, 함수, 제어 흐름, 수학적 연산 및 상속을 사용하여 CSS를 작성할 수 있도록 BSS를 CSS로 컴파일하는 DSL (Small Domain Specific Language) 컴파일러입니다.",
         "bloggy": "단일 페이지 React 애플리케이션을 사용하면 사용자가 블로그를 공유 할 수 있으며 배경에서 태그별로 기사를 필터링하고 댓글을 모니터링하며 사용자 통계를 시각화 할 수 있습니다.",
-        "messageList": "Redux를 사용하여 상태를 모니터링하고 Heroku에 배포하는 MERN (MongoDB + Express + React + Node.js) 애플리케이션입니다. MessageList는 사용자가 메시지를 추가 / 편집 / 삭제할 수 있도록합니다.",
+        "messageList": "Redux를 사용하여 상태를 모니터링하고 Heroku에 배포하는 MERN (MongoDB + Express + React + Node.js) 애플리케이션입니다. MessageList는 사용자가 메시지를 추가 / 편집 / 삭제할 수 있도록합니다." + '<a href="https://quiet-mountain-30375.herokuapp.com" >링크</a>',
         "read_more": "추가 정보"
     },
     "es": {
@@ -113,7 +113,7 @@ var data = {
         "project_title": "Proyecto",
         "bss": "Un pequeño compilador de Lenguaje Específico de Dominio (DSL) que compila BSS en CSS para que permita a los desarrolladores de front-end escribir CSS con reglas de estilo anidadas, variables, funciones, flujo de control, operaciones matemáticas y herencia.",
         "bloggy": "Una aplicación React de una sola página que permite a los usuarios compartir blogs y permite al personal filtrar artículos por etiquetas, monitorear comentarios y visualizar las estadísticas de los usuarios.",
-        "messageList": "Una aplicación MERN (MongoDB + Express + React + Node.js) que también usa Redux para monitorear estados y desplegar en Heroku. MessageList permite a los usuarios agregar / editar / eliminar mensajes.",
+        "messageList": "Una aplicación MERN (MongoDB + Express + React + Node.js) que también usa Redux para monitorear estados y desplegar en Heroku. MessageList permite a los usuarios agregar / editar / eliminar mensajes." + '<a href="https://quiet-mountain-30375.herokuapp.com" >enlace</a>',
         "read_more": "Detalles"
     },
     "fr": {
@@ -132,7 +132,7 @@ var data = {
         "project_title": "Projets",
         "bss": "Un petit compilateur DSL (Domain Specific Language) qui compile BSS en CSS afin de permettre aux développeurs frontaux d'écrire du CSS avec des règles de style imbriquées, des variables, des fonctions, un flux de contrôle, des opérations mathématiques et un héritage.",
         "bloggy": "Une application React à page unique qui permet aux utilisateurs de partager des blogs et permet au personnel de filtrer les articles par balises, de surveiller les commentaires et de visualiser les statistiques des utilisateurs.",
-        "messageList": "Une application MERN (MongoDB + Express + React + Node.js) qui utilise également Redux pour surveiller les états et déployer sur Heroku. MessageList permet aux utilisateurs d'ajouter / modifier / supprimer des messages.",
+        "messageList": "Une application MERN (MongoDB + Express + React + Node.js) qui utilise également Redux pour surveiller les états et déployer sur Heroku. MessageList permet aux utilisateurs d'ajouter / modifier / supprimer des messages." + '<a href="https://quiet-mountain-30375.herokuapp.com" >lien</a>',
         "read_more": "Détails"
     },
     "ae": {
@@ -151,7 +151,7 @@ var data = {
         "project_title": "مشروع مفتوح المصدر",
         "bss": "مترجم لغة صغير (DSL) يقوم بتجميع BSS إلى CSS بحيث يمكن لمطوري الواجهة الأمامية استخدام قواعد الأنماط المتداخلة والمتغيرات والوظائف وتدفق التحكم والعمليات الرياضية والوراثة لكتابة CSS.",
         "bloggy": "يتيح تطبيق React أحادي الصفحة للمستخدمين مشاركة المدونات ، ويسمح للخلفية بتصفية المقالات حسب العلامات ، ومراقبة التعليقات ، وتصور إحصاءات المستخدم.",
-        "messageList": "تطبيق MERN (MongoDB + Express + React + Node.js) يستخدم أيضًا Redux لمراقبة الحالة ونشرها في Heroku. يتيح MessageList للمستخدمين إضافة / تحرير / حذف الرسائل.",
+        "messageList": "تطبيق MERN (MongoDB + Express + React + Node.js) يستخدم أيضًا Redux لمراقبة الحالة ونشرها في Heroku. يتيح MessageList للمستخدمين إضافة / تحرير / حذف الرسائل." + '<a href="https://quiet-mountain-30375.herokuapp.com" >حلقة الوصل</a>',
         "read_more": "تفاصيل",
     }
 }
@@ -191,7 +191,7 @@ for (let i=0; langEl.length>i; i++) {
         project_title.textContent = data[langEl[i].getAttribute("id")]["project_title"];
         bss.textContent = data[langEl[i].getAttribute("id")]["bss"];
         bloggy.textContent = data[langEl[i].getAttribute("id")]["bloggy"];
-        messageList.textContent = data[langEl[i].getAttribute("id")]["messageList"];
+        messageList.innerHTML = data[langEl[i].getAttribute("id")]["messageList"];
         read_more[0].textContent = data[langEl[i].getAttribute("id")]["read_more"];
         read_more[1].textContent = data[langEl[i].getAttribute("id")]["read_more"];
         read_more[2].textContent = data[langEl[i].getAttribute("id")]["read_more"];
